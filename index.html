@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amjed Khaled - AI Specialist Portfolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(145deg, #d1ecf1, #f8e1f4);
+            color: #222;
+            overflow-x: hidden;
+        }
+
+        .cv-container {
+            max-width: 980px;
+            margin: 60px auto;
+            background: #fff;
+            padding: 50px;
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            animation: fadeSlideIn 1.2s ease-out;
+        }
+
+        @keyframes fadeSlideIn {
+            from {
+                transform: translateY(60px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 42px;
+            background: linear-gradient(90deg, #7c4dff, #00bcd4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+        }
+
+        .tagline {
+            font-size: 22px;
+            color: #555;
+            animation: fadeIn 1.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .contact {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin: 30px 0;
+            font-size: 16px;
+            color: #444;
+            animation: fadeIn 2s ease-in;
+        }
+
+        .contact a {
+            color: #0077cc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .contact a:hover {
+            color: #ff4081;
+        }
+
+        .section {
+            margin: 50px 0;
+            animation: fadeSlideIn 1.5s ease;
+        }
+
+        .section h2 {
+            font-size: 28px;
+            background: linear-gradient(90deg, #7c4dff, #00bcd4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 24px;
+        }
+
+        .section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .section ul li {
+            padding-left: 28px;
+            position: relative;
+            margin-bottom: 14px;
+            font-size: 17px;
+        }
+
+        .section ul li::before {
+            content: '\2022';
+            color: #7c4dff;
+            position: absolute;
+            left: 0;
+            font-size: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #888;
+            margin-top: 60px;
+            animation: fadeIn 2s ease-in-out;
+        }
+    </style>
+    <script>
+        window.onload = function () {
+            document.title = "Amjed Khaled - AI Specialist Portfolio";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="cv-container">
+        <div class="header">
+            <h1>Amjed Khaled Ahmed</h1>
+            <p class="tagline">AI Specialist · Computer Vision Engineer · Robotics Innovator</p>
+        </div>
+
+        <div class="contact">
+            <div>📍 New Assiut City, Egypt</div>
+            <div>📧 <a href="mailto:amjedkhaled115@gmail.com">amjedkhaled115@gmail.com</a></div>
+            <div>📞 01550613852</div>
+            <div>🔗 <a href="https://github.com/AmjedKhaled165" target="_blank">GitHub</a></div>
+            <div>💼 <a href="https://linkedin.com/in/amjedkhaled" target="_blank">LinkedIn</a></div>
+        </div>
+
+        <div class="section">
+            <h2>About Me</h2>
+            <ul>
+                <li>An ambitious AI specialist who fuses technical mastery with creative vision and ethical purpose.
+                </li>
+                <li>Known for building elegant, real-world solutions in computer vision, robotics, and analytics.</li>
+                <li>Charismatic in leadership, fluent in Arabic and English, and passionate about lifelong learning.
+                </li>
+                <li>A presence described as confident and distinguished — a beautiful mind with a beautiful mission.
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <ul>
+                <li>Driven AI specialist with hands-on experience in computer vision, robotics, and machine learning.
+                </li>
+                <li>Built intelligent systems using YOLO object detection, Raspberry Pi, and real-time video pipelines.
+                </li>
+                <li>Led the development of AI-powered inventory management systems for large-scale supermarkets.</li>
+                <li>Creative technologist with strong coding, visual design, and analytical skills.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Languages: Python (Advanced), Java, C++, SQL</li>
+                <li>Frameworks & Tools: YOLO, Ultralytics, OpenCV, TensorFlow, Flask</li>
+                <li>Robotics: Drones, Underwater Vehicles, Autonomous Systems</li>
+                <li>Data Analytics: Pandas, NumPy, Matplotlib, Power BI</li>
+                <li>Creative: Adobe Photoshop, Illustrator | UI/UX Fundamentals</li>
+                <li>Database Systems: MySQL, ER Design</li>
+                <li>Soft Skills: Creative Problem Solving, Research, Bilingual (Arabic & English)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Professional Experience</h2>
+            <ul>
+                <li>Engineered and deployed AI models (YOLO, LLMs, chatbots) for academic and commercial use.</li>
+                <li>Created Raspberry Pi camera pipelines for real-time CV processing and remote display.</li>
+                <li>Developed intelligent database-driven desktop apps in Java (banking systems, email clients).</li>
+                <li>Led robotics projects from prototype to function, including autonomous drones and marine robots.
+                </li>
+                <li>Optimized large-scale data pipelines for decision-making across retail operations.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>Ahmed Daif Allah International Applied Technology School – Senior Year</li>
+                <li>High Internship Diploma – Level 3 (2022–2025)</li>
+                <li>Udacity AI Programming Nanodegree (2022–2024)</li>
+                <li>🏆 Ranked 7th Nationally – Egypt’s Artificial Intelligence Competition</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Passions & Interests</h2>
+            <ul>
+                <li>Innovating with ethical AI & sustainable tech</li>
+                <li>Exploring robotics, drones, and autonomous systems</li>
+                <li>Fitness & health: committed to daily training and nutrition balance</li>
+                <li>Always learning. Always building. Always leveling up.</li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            &copy; 2025 Amjed Khaled Ahmed.
+        </div>
+    </div>
+</body>
+
+</html>
